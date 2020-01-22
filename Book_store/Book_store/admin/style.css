@@ -1,0 +1,405 @@
+
+body {
+	margin-top: 0px;
+	padding: 0;
+	background: url(image/book1.jpg);
+	-o-background: url(image/book1.jpg);
+	-moz-background: url(image/book1.jpg);
+	-webkit-background: url(image/book1.jpg);
+		background-size:100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	
+	font-weight: normal;
+	color: #559106;
+}
+
+h1 {
+	letter-spacing: -1px;
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	margin: 0 0 2em 0;
+	text-align: justify;
+	line-height: 26px;
+	font-size: 11px;
+}
+
+a:link {
+	color: #4E8006;
+	
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	font-variant:small-caps;
+	font-size:12px;
+	color: #4E8006;
+}
+
+a:visited {
+	color: #4E8006;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+/* Form */
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+input, textarea, select {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color:#cc9900;
+}
+
+/* Header */
+
+#header {
+	padding: 0;
+	background: url(image/book1.jpg) no-repeat  ;
+	background-size:100%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+}
+/* Menu */
+
+#menu {
+
+	float: unset; ;
+	width: 100%;
+	height: 54px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px 0 0 20px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	font-size: 20px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 5px;
+	padding: 12px 20px;
+	letter-spacing: -.5px;
+	text-decoration: none;
+	font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#menu a:hover { 
+	text-decoration: none; 
+	color: yellow;
+	border-bottom: 2px solid;
+	border-color: green; 
+
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+/** LOGO */
+
+#logo-wrap {
+	width: 96%;
+	margin: 0 auto;
+	padding: 30px 0 20px 0;
+	background: url(image/img03.jpg) ;
+}
+
+
+#logo {
+	width: 90%;
+	height: 200px;
+	margin: auto;
+	padding: 0;
+	background: url(image/book.JPG) ;
+}
+
+#logo h1, #logo h2 {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+}
+
+#logo h1 { 
+	padding-top: 95px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:36px;
+	font-style: italic;
+	color: white;
+}
+
+#logo h1 a {
+	text-decoration: none;
+		font-size:36px;
+	color: #FFFFFF; 
+}
+
+#logo h1 a:hover { text-decoration: underline;	font-size:36px; }
+
+#logo h2 {
+	padding: 115px 0 0 5px;
+	font: italic 13px Georgia, "Times New Roman", Times, serif;
+	color: #000000;
+}
+
+#logo p a {
+	text-decoration: none;
+	color: #B6ACA2;
+}
+
+#logo p a:hover { text-decoration: underline; }
+
+
+/* Page */
+
+#page {
+	width: 96%;
+	margin: 0 auto;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 65%;
+	
+}
+
+/* Post */
+
+.post {
+	padding: 15px 15px;
+}
+
+.post .title {
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.post h1 {
+	color:white;
+}
+
+.post h2 {
+	height: 32px;
+	padding: 8px 0 0 15px;
+	background: url(image/img09.jpg) no-repeat left top;
+	font-size: 18px;
+	color: #DADADA;
+}
+
+.post .entry {
+	padding: 0 15px;
+}
+
+.post .meta {
+	padding: 15px 0 30px 0;
+	border-top: 1px dotted #D1D1D1;
+}
+
+.post .meta p {
+	margin: 0;
+	line-height: normal;
+	color: #999999;
+}
+
+.post .meta .byline {
+	float: left;
+}
+
+.post .meta .links {
+	float: right;
+}
+
+.post .meta .more {
+	padding: 0 20px 0 18px;
+	background: url(image/img11.gif) no-repeat left center;
+}
+
+.post .meta .comments {
+	padding-left: 22px;
+	background: url(image/img12.gif) no-repeat left center;
+}
+
+.post .meta b {
+	display: none;
+}
+
+/* Sidebar */
+
+#sidebar {
+
+	float: left;
+	width: 215px;
+}
+
+#sidebar ul {
+	margin: 0;
+	font-size: 10px;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+		font-size: 10px;
+
+	margin-bottom: 40px;
+	padding: 0 15px;
+}
+
+#sidebar li ul {
+		font-size: 10px;
+
+}
+
+#sidebar li li {
+	font-size: 20px;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-left: 15px;
+	background: url(image/img08.jpg) no-repeat left 50%;
+	color: #ffffcc;
+}
+
+#sidebar h2 {
+	font-size: 20px;
+	height: 32px;
+	padding: 8px 0 0 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 10px;
+	background: url(image/img07.jpg) no-repeat left top;
+	font-size: 18px;
+	color: #ffffcc;
+}
+
+/* Search */
+
+#search {
+}
+
+#search h2 {
+	margin-bottom: 20px;
+}
+
+#s {
+	width: 115px;
+	margin-right: 5px;
+	padding: 3px;
+	border: 1px solid #BED99C;
+}
+
+#x {
+	padding: 3px;
+	border: none;
+	background: #467805;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+/* Boxes */
+
+.box1 {
+	padding: 20px;
+}
+
+.box2 {
+	color: #BABABA;
+}
+
+.box2 h2 {
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+.box2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.box2 a:link, .box2 a:hover, .box2 a:active, .box2 a:visited  {
+	color: #EDEDED;
+}
+/* Footer */
+#footer-wrap {
+	width: 860px;
+	height: 64px;
+	margin: 0 auto;
+	background: url(images/img04.jpg) no-repeat left top;
+}
+
+#footer {
+	margin: 0 auto;
+	height: 64px;
+	min-height: 64px;
+	padding: 0;
+}
+
+html>body #footer {
+	height: auto;
+}
+
+#footer p {
+}
+#legal {
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+	color: #999999;
+}
+
+#legal a {
+	color: #999999;
+}
